@@ -70,6 +70,10 @@ nav a:hover{
     
 }
 
+.cachorros{
+    width: 430px;
+}
+
 .texto-centralizado{
     text-align: center;
 }
@@ -103,3 +107,59 @@ nav a:hover{
 
 }
    
+form{
+    width: 380px;
+}
+
+form input, form textarea{
+    width: 100%;
+    border: 1px solid #6dd432;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+ }
+
+iframe{
+    width: 100%;
+    padding-left: 40px;
+}
+
+hr{
+    color: #6dd432;
+}
+
+.icons{
+     width: 2%;
+     height: 2%;
+     padding: 20px 0 0 0;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover{
+    color: #6dd432;
+}
+
+.logofooter{
+    text-align: center;
+    background-image: url(../img/fundo-topo.jpg);
+    padding: 10px 0;
+} 
+
+.logofooter h1{
+    margin: 0;
+    height: 84px;
+}
+
+div p{
+    
+}
+
+
+
+
+
+
