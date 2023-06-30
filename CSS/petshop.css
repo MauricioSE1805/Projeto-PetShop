@@ -70,6 +70,10 @@ nav a:hover{
     
 }
 
+.cachorros{
+    width: 430px;
+}
+
 .texto-centralizado{
     text-align: center;
 }
@@ -103,3 +107,88 @@ nav a:hover{
 
 }
    
+form{
+    width: 380px;
+}
+
+form input, form textarea{
+    width: 100%;
+    border: 1px solid #6dd432;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+ }
+
+iframe{
+    width: 100%;
+    padding-left: 40px;
+}
+
+hr{
+    color: #6dd432;
+}
+
+.icons{
+     width: 2%;
+     height: 2%;
+     padding: 20px 0 0 0;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover{
+    color: #6dd432;
+}
+
+.logofooter{
+    text-align: center;
+    background-image: url(../img/fundo-topo.jpg);
+    padding: 10px 0;
+} 
+
+.logofooter h1{
+    margin: 0;
+    height: 84px;
+}
+
+#aluno{
+    text-align: center;
+    color: #2d4420;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+}
+
+#aluno:hover{
+    color: #66964b;
+}
+
+@media (max-width: 700px){
+    *{
+      margin: 0%;
+      padding: 0%
+    }
+    .container{
+      width: 100%
+    }
+    .flex-container{
+      flex-direction: column;
+      align-items: center;
+    }
+    .col{
+      margin: 1rem
+    }
+    .produto{
+      margin: 1rem;
+      width: 30rem;
+      text-align: center;
+    }
+  }
+
+
+
+
+
+
